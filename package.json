@@ -6,7 +6,7 @@
     "@mdx-js/loader": "^0.16.5",
     "@mdx-js/mdx": "^0.16.5",
     "babel-preset-env": "^1.7.0",
-    "chokidar-cli": "^1.2.1",
+    "chokidar-cli": "^1.2.2",
     "classnames": "^2.2.6",
     "date-fns": "^1.29.0",
     "directory-metagen": "^1.6.3",
