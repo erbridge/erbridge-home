@@ -61,6 +61,7 @@ exports[`renders correctly 1`] = `
           "options": Object {},
         },
         "youtube": Object {
+          "embedOptions": Object {},
           "playerVars": Object {
             "iv_load_policy": 3,
             "modestbranding": 1,
@@ -74,9 +75,11 @@ exports[`renders correctly 1`] = `
     }
     controls={true}
     height="100%"
+    light={false}
     loop={false}
     muted={false}
     onBuffer={[Function]}
+    onBufferEnd={[Function]}
     onDisablePIP={[Function]}
     onDuration={[Function]}
     onEnablePIP={[Function]}
