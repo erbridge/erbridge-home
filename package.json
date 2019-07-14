@@ -9,7 +9,7 @@
     "classnames": "^2.2.6",
     "date-fns": "^1.29.0",
     "directory-metagen": "^1.6.3",
-    "enzyme": "^3.7.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.5",
     "husky": "^1.2.0",
