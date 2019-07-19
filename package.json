@@ -2,7 +2,7 @@
   "name": "erbridge-home",
   "private": true,
   "devDependencies": {
-    "@mdx-js/loader": "^1.0.27",
+    "@mdx-js/loader": "^1.1.0",
     "@mdx-js/mdx": "^1.1.0",
     "babel-preset-env": "^1.7.0",
     "chokidar-cli": "^1.2.2",
