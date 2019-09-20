@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@mdx-js/loader": "^1.1.0",
-    "@mdx-js/mdx": "^1.1.0",
+    "@mdx-js/mdx": "^1.4.5",
     "babel-preset-env": "^1.7.0",
     "chokidar-cli": "^1.2.2",
     "classnames": "^2.2.6",
