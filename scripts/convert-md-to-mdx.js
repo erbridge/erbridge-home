@@ -7,7 +7,6 @@ const {
 } = require('fs');
 const { extname, join } = require('path');
 
-const moment = require('moment');
 const prettier = require('prettier');
 const { loadFront } = require('yaml-front-matter');
 
@@ -27,7 +26,7 @@ for (const path of getMarkdownFiles(`${__dirname}/../src/pages`)) {
   const content = meta.__content;
 
   delete meta.__content;
-  meta.date = meta.date && moment.utc(meta.date).toISOString();
+  meta.date = meta.date;
 
   const metaString = prettier
     .format(`export const meta = ${JSON.stringify(meta, null, 2)}`, {
