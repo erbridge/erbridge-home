@@ -20,7 +20,7 @@ exports[`renders correctly when not showing the heading image 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__links MarkdownPage__links--has-tags"
@@ -120,7 +120,7 @@ exports[`renders correctly with all props 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__links MarkdownPage__links--has-tags"
@@ -220,7 +220,7 @@ exports[`renders correctly with empty links 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__tags"
@@ -303,7 +303,7 @@ exports[`renders correctly with empty styles 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__links MarkdownPage__links--has-tags"
@@ -403,7 +403,7 @@ exports[`renders correctly with empty tag groups 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__links MarkdownPage__links--has-tags"
@@ -485,7 +485,7 @@ exports[`renders correctly with empty tags 1`] = `
     className="MarkdownPage__date"
     key="date"
   >
-    1 January 2019
+    01 January 2019
   </p>
   <p
     className="MarkdownPage__links MarkdownPage__links--has-tags"

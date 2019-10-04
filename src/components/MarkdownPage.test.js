@@ -9,7 +9,7 @@ it('renders correctly with all props', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[{ href: '/a', label: 'A' }, { href: '/b', label: 'B' }]}
         showHeadingImage
@@ -34,7 +34,7 @@ it('renders correctly with empty links', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[]}
         showHeadingImage
@@ -52,7 +52,7 @@ it('renders correctly with empty styles', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[{ href: '/a', label: 'A' }, { href: '/b', label: 'B' }]}
         showHeadingImage
@@ -71,7 +71,7 @@ it('renders correctly with empty tags', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[{ href: '/a', label: 'A' }, { href: '/b', label: 'B' }]}
         showHeadingImage
@@ -90,7 +90,7 @@ it('renders correctly with empty tag groups', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[{ href: '/a', label: 'A' }, { href: '/b', label: 'B' }]}
         showHeadingImage
@@ -109,7 +109,7 @@ it('renders correctly when not showing the heading image', () => {
     shallow(
       <MarkdownPage
         content={props => <div {...props}>content</div>}
-        date="1 January 2019"
+        date="01 January 2019"
         image="/assets/test.jpg"
         links={[{ href: '/a', label: 'A' }, { href: '/b', label: 'B' }]}
         styles={[]}
