@@ -59,7 +59,7 @@ export const {
   ],
   generateRedirects: posts =>
     posts
-      .map(post => ({ ...post, date: formatDate(post.date, 'YYYY/MM/DD') }))
+      .map(post => ({ ...post, date: formatDate(post.date, 'yyyy/MM/dd') }))
       .filter(({ date }) => date)
       .map(({ date, oldSlug, slug, title }) => ({
         path: `/blog/${date}/${sanitizePathComponent(

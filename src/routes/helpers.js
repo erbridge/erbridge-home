@@ -1,5 +1,6 @@
-import compareDateDesc from 'date-fns/compare_desc';
+import compareDateDesc from 'date-fns/compareDesc';
 import formatDateFn from 'date-fns/format';
+import parseISO from 'date-fns/parseISO';
 import React from 'react';
 
 export const formatDate = (date, format) => {
@@ -7,7 +8,7 @@ export const formatDate = (date, format) => {
     return null;
   }
 
-  return formatDateFn(date, format);
+  return formatDateFn(parseISO(date), format);
 };
 
 export const sanitizePathComponent = rawComponent =>
@@ -70,7 +71,7 @@ export const generateRoutes = (
     }
 
     if (a.date && b.date) {
-      return compareDateDesc(a.date, b.date);
+      return compareDateDesc(parseISO(a.date), parseISO(b.date));
     }
 
     return 0;
@@ -98,7 +99,7 @@ export const generateRoutes = (
       showHeadingImage,
       title,
       subtitle,
-      date: formatDate(date, 'DD MMMM YYYY'),
+      date: formatDate(date, 'dd MMMM yyyy'),
       links,
       tags,
       styles,
