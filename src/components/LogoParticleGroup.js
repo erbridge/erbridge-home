@@ -58,7 +58,7 @@ class LogoParticleGroup extends Component {
       }
 
       this.focusAnimFrame = window.requestAnimationFrame(() => {
-        runAnimation(now);
+        runAnimation();
       });
     };
 
