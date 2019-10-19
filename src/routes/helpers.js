@@ -79,7 +79,7 @@ export const generateRoutes = (
 
   const routes = sortedPosts.map(
     ({
-      categories,
+      categories: postCategories,
       date,
       image,
       links,
@@ -94,7 +94,7 @@ export const generateRoutes = (
       title,
     }) => ({
       path: getRoutePath(basePathName, slug, title),
-      categories,
+      categories: postCategories,
       image,
       showHeadingImage,
       title,
@@ -140,7 +140,7 @@ export const generateRoutes = (
         routes: filteredRoutes,
       };
     })
-    .filter(route => route);
+    .filter(r => r);
 
   const route = {
     name,

@@ -56,7 +56,7 @@ getDirectories(join(__dirname, '..', 'src', 'pages'))
   .map(path => ({
     path,
     format: parseMeta,
-    filter: files => files.filter(path => extname(path) === '.mdx'),
+    filter: files => files.filter(filepath => extname(filepath) === '.mdx'),
     output: 'index.js',
   }))
   .forEach(metagen);

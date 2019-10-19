@@ -14,7 +14,7 @@ export const {
       path: 'all',
       link: 'All',
       title: 'All Fiction',
-      routeFilter: route => route,
+      routeFilter: r => r,
     },
     {
       name: 'poetry',
