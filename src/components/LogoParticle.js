@@ -51,7 +51,7 @@ class LogoParticle extends Component {
     if (pointerPosition) {
       pointerX = pointerPosition.x || 0;
       pointerY = pointerPosition.y || 0;
-    } else if (groupBoundingRect) {
+    } else {
       // Magic numbers estimated from the source svg.
       pointerX = (((groupBoundingRect.right || 0) + 15) * width) / 7.2;
       pointerY = (((groupBoundingRect.top || 0) + 5) * height) / 7.2;
