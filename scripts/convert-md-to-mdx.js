@@ -26,7 +26,6 @@ for (const path of getMarkdownFiles(`${__dirname}/../src/pages`)) {
   const content = meta.__content;
 
   delete meta.__content;
-  meta.date = meta.date;
 
   const metaString = prettier
     .format(`export const meta = ${JSON.stringify(meta, null, 2)}`, {
