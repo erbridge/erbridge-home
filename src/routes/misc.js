@@ -14,7 +14,7 @@ export const {
       path: 'all',
       link: 'All',
       title: 'All Misc Projects',
-      routeFilter: r => r,
+      routeFilter: Boolean,
     },
     {
       name: 'apps',

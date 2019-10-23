@@ -140,7 +140,7 @@ export const generateRoutes = (
         routes: filteredRoutes,
       };
     })
-    .filter(r => r);
+    .filter(Boolean);
 
   const route = {
     name,

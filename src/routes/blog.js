@@ -19,7 +19,7 @@ export const {
       path: 'all',
       link: 'All',
       title: 'All Posts',
-      routeFilter: r => r,
+      routeFilter: Boolean,
     },
     {
       name: 'gamedev',
