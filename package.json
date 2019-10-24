@@ -28,7 +28,7 @@
     "react-images": "^1.0.0",
     "react-player": "^1.13.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "3.2.0",
     "safe-eval": "^0.4.1",
     "source-map-explorer": "^2.1.0",
     "yaml-front-matter": "^4.0.0"
