@@ -7,7 +7,7 @@
     "babel-preset-env": "^1.7.0",
     "chokidar-cli": "^2.1.0",
     "classnames": "^2.2.6",
-    "date-fns": "^2.6.0",
+    "date-fns": "^2.10.0",
     "directory-metagen": "^1.6.3",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
