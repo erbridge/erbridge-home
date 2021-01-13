@@ -4,12 +4,6 @@ import Books from '../pages/books.mdx';
 import Home, { meta as homeMeta } from '../pages/home.mdx';
 
 import {
-  categoryRoutes as blogCategoryRoutes,
-  route as blogRoute,
-  routes as blogRoutes,
-  redirectedRoutes as redirectedBlogRoutes,
-} from './blog';
-import {
   categoryRoutes as fictionCategoryRoutes,
   route as fictionRoute,
   routes as fictionRoutes,
@@ -39,13 +33,13 @@ export const homeRoute = {
   navExact: true,
   title: homeMeta.title,
   styles: homeMeta.styles,
-  loadContent: () => props => <Home {...props} />,
+  loadContent: () => (props) => <Home {...props} />,
 };
 
 export const booksRoute = {
   name: 'books',
   path: '/books',
-  loadContent: () => props => <Books {...props} />,
+  loadContent: () => (props) => <Books {...props} />,
 };
 
 export const redirectedRoutes = [
@@ -53,7 +47,6 @@ export const redirectedRoutes = [
     path: '/about',
     to: homeRoute.path,
   },
-  ...redirectedBlogRoutes,
   ...redirectedFictionRoutes,
   ...redirectedGamesRoutes,
   ...redirectedMiscRoutes,
@@ -66,13 +59,10 @@ export const topRoutes = [
   webRoute,
   miscRoute,
   fictionRoute,
-  blogRoute,
 ];
 
 export default [
   ...topRoutes,
-  ...blogCategoryRoutes,
-  ...blogRoutes,
   ...fictionCategoryRoutes,
   ...fictionRoutes,
   ...gamesRoutes,

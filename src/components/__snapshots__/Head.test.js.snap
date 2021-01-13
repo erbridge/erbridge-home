@@ -80,21 +80,6 @@ exports[`renders correctly 1`] = `
   </Route>
   <Route
     exact={true}
-    key="blog"
-    path="/blog"
-  >
-    <Helmet
-      defer={true}
-      encodeSpecialCharacters={true}
-    >
-      <title>
-        Blog | 
-        erbridge
-      </title>
-    </Helmet>
-  </Route>
-  <Route
-    exact={true}
     key="books"
     path="/books"
   >

@@ -5,7 +5,6 @@ import routes, { redirectedRoutes } from '../routes';
 
 import Body from './Body';
 
-jest.mock('../pages/blog');
 jest.mock('../pages/fiction');
 jest.mock('../pages/games');
 jest.mock('../pages/home.mdx', () => ({ meta: {}, default: () => 'home.mdx' }));

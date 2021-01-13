@@ -5,7 +5,6 @@ import routes from '../routes';
 
 import Head from './Head';
 
-jest.mock('../pages/blog');
 jest.mock('../pages/fiction');
 jest.mock('../pages/games');
 jest.mock('../pages/home.mdx', () => ({ meta: {}, default: () => 'home.mdx' }));

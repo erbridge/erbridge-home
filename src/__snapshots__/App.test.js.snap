@@ -43,13 +43,6 @@ exports[`renders correctly 1`] = `
           "title": "Fiction",
         },
         Object {
-          "link": "Blog",
-          "name": "blog",
-          "path": "/blog",
-          "routes": Array [],
-          "title": "Blog",
-        },
-        Object {
           "loadContent": [Function],
           "name": "books",
           "path": "/books",
@@ -115,13 +108,6 @@ exports[`renders correctly 1`] = `
               "routes": Array [],
               "title": "Fiction",
             },
-            Object {
-              "link": "Blog",
-              "name": "blog",
-              "path": "/blog",
-              "routes": Array [],
-              "title": "Blog",
-            },
           ]
         }
       />
@@ -132,10 +118,6 @@ exports[`renders correctly 1`] = `
             Object {
               "path": "/about",
               "to": "/",
-            },
-            Object {
-              "path": "/blog/skald",
-              "to": "/blog",
             },
             Object {
               "path": "/tools/gotwit",
@@ -197,13 +179,6 @@ exports[`renders correctly 1`] = `
               "path": "/fiction",
               "routes": Array [],
               "title": "Fiction",
-            },
-            Object {
-              "link": "Blog",
-              "name": "blog",
-              "path": "/blog",
-              "routes": Array [],
-              "title": "Blog",
             },
             Object {
               "loadContent": [Function],

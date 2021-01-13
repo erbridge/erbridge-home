@@ -59,6 +59,15 @@ exports[`renders correctly with all props 1`] = `
         >
           C
         </NavLink>
+        <div
+          className="Header__nav-spacer"
+        />
+        <ExternalLink
+          className="Header__nav-link"
+          to="https://blog.erbridge.co.uk"
+        >
+          Blog
+        </ExternalLink>
       </div>
       <div
         className="Header__nav-menu-trigger"
@@ -138,7 +147,14 @@ exports[`renders correctly with empty routes 1`] = `
       />
       <div
         className="Header__nav"
-      />
+      >
+        <ExternalLink
+          className="Header__nav-link"
+          to="https://blog.erbridge.co.uk"
+        >
+          Blog
+        </ExternalLink>
+      </div>
       <div
         className="Header__nav-menu-trigger"
         onClick={[Function]}
@@ -186,7 +202,14 @@ exports[`renders correctly without optional props 1`] = `
       />
       <div
         className="Header__nav"
-      />
+      >
+        <ExternalLink
+          className="Header__nav-link"
+          to="https://blog.erbridge.co.uk"
+        >
+          Blog
+        </ExternalLink>
+      </div>
       <div
         className="Header__nav-menu-trigger"
         onClick={[Function]}

@@ -77,14 +77,6 @@ exports[`renders correctly with all props 1`] = `
         </Route>
         <Route
           exact={true}
-          key="blog"
-          path="/blog"
-        >
-          <withRouter(ScrollToTopOnMount) />
-          0
-        </Route>
-        <Route
-          exact={true}
           key="books"
           path="/books"
         >
@@ -103,36 +95,30 @@ exports[`renders correctly with all props 1`] = `
         <Redirect
           exact={true}
           key="1"
-          path="/blog/skald"
-          to="/blog"
-        />
-        <Redirect
-          exact={true}
-          key="2"
           path="/tools/gotwit"
           to="/misc/gotwit"
         />
         <Redirect
           exact={true}
-          key="3"
+          key="2"
           path="/tools/iris"
           to="/misc/iris"
         />
         <Redirect
           exact={true}
-          key="4"
+          key="3"
           path="/tools/itchy-electron"
           to="/misc/itchy-electron"
         />
         <Redirect
           exact={true}
-          key="5"
+          key="4"
           path="/tools/lime-text"
           to="/misc/limetext"
         />
         <Redirect
           exact={true}
-          key="6"
+          key="5"
           path="/tools/nqr"
           to="/misc/nqr"
         />
@@ -219,14 +205,6 @@ exports[`renders correctly without optional props 1`] = `
           exact={true}
           key="fiction"
           path="/fiction"
-        >
-          <withRouter(ScrollToTopOnMount) />
-          0
-        </Route>
-        <Route
-          exact={true}
-          key="blog"
-          path="/blog"
         >
           <withRouter(ScrollToTopOnMount) />
           0

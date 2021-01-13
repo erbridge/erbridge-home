@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import ExternalLink from './ExternalLink';
 import Logo from './Logo';
 
 import './Header.scss';
@@ -69,6 +70,15 @@ class Header extends Component {
 
                     return elements;
                   }, [])}
+              {routes && routes.length > 0 && (
+                <div className="Header__nav-spacer" />
+              )}
+              <ExternalLink
+                className="Header__nav-link"
+                to="https://blog.erbridge.co.uk"
+              >
+                Blog
+              </ExternalLink>
             </div>
             <div
               className={classnames('Header__nav-menu-trigger', {
