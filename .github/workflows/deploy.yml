@@ -16,7 +16,7 @@ jobs:
         run: npm run build
 
       - name: Archive built artefacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: build
